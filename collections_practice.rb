@@ -23,8 +23,9 @@ def reverse_array(arr)
 end
 
 def kesha_maker(arr)
-    arr.map do |name|
-        name.slice(0,2) + "$" + name.slice(3,name.length)
+    arr.each do |name|
+        name[2] = "$"
+        #name.slice(0,2) + "$" + name.slice(3,name.length)
     end
     #i = 0
     #while i < arr.length
