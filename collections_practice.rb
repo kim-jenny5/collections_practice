@@ -26,12 +26,9 @@ def kesha_maker(arr)
     arr.map do |name|
         name.slice(0,2) + "$" + name.slice(3,name.length)
     end
-    #i = 0
-    #while i < arr.length
-        #arr[i].sub(2, "$")
-        #i += 1
+    #arr.each do |name|
+        #name[2] = "$
     #end
-    #arr
 end
 
 def find_a(arr)
